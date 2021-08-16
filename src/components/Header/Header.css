@@ -1,0 +1,148 @@
+body,a,span,li{
+    font-size: 14px;
+    list-style: none;
+    color: #ccc;
+    text-decoration: none;
+}
+.header{
+    width: 1903px;
+    height: 40px;
+    background: #333333;
+}
+.nav{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto
+    ;border: 0px solid red;
+    height: 40px;
+}
+.nav_left{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.nav_left a{
+    font-size: 12px;
+    color: #b0b0b0;
+    display: inline-block;
+}
+.nav_left a:hover{color: #fff;}
+.nav_left .sep{
+    color: #424242;
+    margin: 0 8px;
+}
+.nav_left .download{
+    position: absolute;
+    top: 40px;left: 50%;
+    width: 124px;
+    height: 145px;
+    background: #fff;
+    margin-left: -55px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    line-height: 1;
+    display: none;
+    z-index: 23;
+}
+.nav_left .download .jiao{
+    width: 0;
+    height: 0;
+    border: 5px solid red;
+    border-bottom-color: #fff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+.nav_left .download .imgs{
+    display: block;
+    margin: 18px auto 12px;
+    width: 90px;
+    height: 90px;
+}
+.nav_left .down:hover .download{display: block;}
+.nav_left .title:nth-child(21):hover .download{display: block;}
+.center{
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    float: left;
+    margin-left: 70px;
+}
+.nav1 li:nth-child(14){margin-left: 150px;}
+.center a{
+    font-size: 12px;
+    color: #b0b0b0;
+    display: inline-block;
+}
+.center a:hover{color: #fff;}
+.center .sep{
+    color: #424242;
+    margin: 0 8px;
+}
+.nav_right{
+    width: 120px;
+    height: 40px;
+    float: right;
+    background: #424242;
+    color: #b0b0b0;
+    text-align: center;
+    line-height: 40px;
+}
+.nav_right img{
+    position: relative;
+    top: 6px;
+}
+.nav_right a{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.nav_right a span{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.nav_right .shopping{
+    width: 316px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 26px;
+    right: 338px;
+    display: none;
+    z-index: 10;
+    box-shadow: 5px 5px 10px #b0b0b0;
+}
+.nav_right .shopping a{color: #424242;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
